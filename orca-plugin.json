@@ -3,19 +3,14 @@
   "id": "synthwave-84",
   "publisher": "tucker-pw",
   "name": "SynthWave '84 for Orca",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "execution": "data",
-  "description": "A Synthwave-inspired neon dark theme for Orca's interface, editor, and terminal. Ported from Robb Owen's SynthWave '84 VS Code theme.",
+  "description": "A Synthwave-inspired neon dark theme for Orca.",
   "license": "MIT",
-  "engines": {
-    "orca": ">=1.4.245"
-  },
+  "engines": { "orca": ">=1.4.245" },
   "contributes": {
     "themes": [
       { "id": "synthwave-84", "title": "SynthWave '84", "path": "themes/synthwave-84.json" }
-    ],
-    "terminalThemes": [
-      { "id": "synthwave-84", "title": "SynthWave '84", "path": "terminal/synthwave-84.json" }
     ]
   },
   "capabilities": []
